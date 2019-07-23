@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700&display=swap');
+body {
+    font-family: Montserrat,sans-serif;
+}
+a:active, a:focus {
+    outline: 0;
+    border: none;
+}
+header {
+    text-align: center;
+    background: #5dafbe;
+    color: white;
+    margin-top: 4%;
+}
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+header img {
+    display: block;
+    border-radius: 100%;
+    margin: 0 auto 20px;
+}
+header .intro {
+    margin-top: 9%;
+}
+header .intro .name {
+    display: block;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+}
+header .intro .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+section {
+    padding: 100px 0;
+}
+hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+hr.star-primary:after {
+    content: "\f005";
+    font-family: FontAwesome, serif;
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 2em;
+    padding: 0 0.25em;
+}
+hr.star-primary {
+    border-color: #2C3E50;
+}
+hr.star-primary:after {
+    background-color: white;
+    color: #2C3E50;
+}
