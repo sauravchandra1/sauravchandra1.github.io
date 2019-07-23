@@ -61,3 +61,23 @@ hr.star-primary:after {
     background-color: white;
     color: #2C3E50;
 }
+header .intro .links {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+@media (min-width: 768px) {
+    header .container {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    header .intro .name {
+        font-size: 2em;
+    }
+
+    header .intro .skills {
+        font-size: 1.75em;
+    }
+}
+.links a {
+}
