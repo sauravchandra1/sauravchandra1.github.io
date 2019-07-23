@@ -1,6 +1,6 @@
-(function($) {
+(function ($) {
     "use strict";
-    $('.page-scroll a').bind('click', function(event) {
+    $('.page-scroll a').bind('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top)
@@ -8,3 +8,7 @@
         event.preventDefault();
     });
 })(jQuery);
+
+$(".nav-menu li a").click(function () {
+    $(this).parent().addClass('active').siblings().removeClass('active');
+});
